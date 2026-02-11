@@ -728,37 +728,41 @@
 
         <!-- Contact Form -->
         <div class="contact-form">
-          <form id="contactForm">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name" required>
-            </div>
+            <form action="https://formsubmit.co/luvself22@gmail.com" method="POST"
+        id="contactForm">
+                <input type="hidden" name="_subject" value="New Message from Your
+        Website">
+                <input type="hidden" name="_captcha" value="false">
+              
+                <div class="form-group">
+                   <input type="text" class="form-control" name="email" 
+        placeholder="Your Email" required>
+                </div>
 
-            <div class="form-group">
-              <input type="email" class="form-control" placeholder="Your Email" required>
-            </div>
+                <div class="form-group">
+                    <input type="text" class="form-control"  name="subject" 
+        placeholder="What calls you to reach out?">
+                </div>
 
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="What calls you to reach out?">
-            </div>
+               <div class="form-group">
+                   <textarea class="form-control" name="message" placeholder="Share 
+        what's alive for you right now... (Optional)"></textarea>
+               </div>
 
-            <div class="form-group">
-              <textarea class="form-control" placeholder="Share what's alive for you right now... (Optional)"></textarea>
-            </div>
-
-            <button type="submit" class="btn" style="width: 100%; padding: 20px; font-size: 1.2rem;">
-              <i class="fas fa-paper-plane" style="margin-right: 12px;"></i> Send Your Message
-            </button>
-
-            <p style="margin-top: 25px; text-align: center; color: var(--earth-brown); font-size: 0.9rem;">
-              <i class="fas fa-lock" style="margin-right: 8px;"></i>
-              Your message comes only to me and is held in confidence
-            </p>
-          </form>
+               <button type="submit" class="btn" style="width: 100%; padding: 20px; font-
+        size: 1.2rem;">
+                    <i class=fas fa-paper-plane" style=margin-right: 12px;"></i>i> Send
+        Your Message
+               </button>                   
+                          
+               <p style="margin-top: 25px; text-align: center; color: var(--earth-brown); 
+        font-size: 0.9rem;">
+                    <i class="fas fa-lock" style="margin-right: 8px;"></i>
+                    Your message comes only to me and is held in confidence
+                </p>
+            </form>
         </div>
-      </div>
-    </div>
-  </section>
-
+    
   <!-- Footer -->
   <footer>
     <div class="container">
