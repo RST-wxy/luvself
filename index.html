@@ -842,8 +842,7 @@
     });
     // Contact form submission
     document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const name = this.querySelector('input[type="text"]').value;
+      const name = this.querySelector('input[name="name"]').value;
       if (name) {
         alert(`Thank you, ${name} 🌟\n\nI've received your message and will respond via email soon.\n\nI'm honored you're reaching out and look forward to connecting.`);
         this.reset();
